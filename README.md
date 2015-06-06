@@ -21,10 +21,10 @@ Returned changes object includes the following keys, which are each an array of 
 ## Options
 getChanges requires the following options
 
-docker - connection to dockerode
-image - name of the image that you want to run npm i module against
-module_name - can be a module_name or module_name@version
-callback - function with the signature (err, changes)
+- docker - connection to dockerode
+- image - name of the image that you want to run npm i module against
+- module_name - can be a module_name or module_name@version
+- callback - function with the signature (err, changes)
 
 
 ## scripts
