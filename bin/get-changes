@@ -1,0 +1,16 @@
+var getChanges = require('../index.js');
+var Docker = require('dockerode');
+var docker = new Docker({socketPath: '/var/run/docker.sock'});
+
+if (!process.argv[2]) {
+    return console.log("USAGE: get-changes module[@version]");
+}
+
+getChanges(docker, 'node', process.argv[2], function (err, result) {
+    if (err) {
+        return console.error(err);
+    }
+    
+    console.log(result);
+});
+

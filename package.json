@@ -1,0 +1,21 @@
+{
+  "name": "@adam_baldwin/module-fs-changes",
+  "version": "1.0.0",
+  "description": "Use Docker to get ",
+  "main": "index.js",
+  "bin": {
+    "get-changes": "bin/get-changes"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Baldwin",
+  "license": "",
+  "dependencies": {
+    "dockerode": "^2.0.7"
+  },
+  "devDependencies": {
+    "code": "^1.3.0",
+    "lab": "^5.2.1"
+  }
+}
