@@ -20,6 +20,7 @@ var getChanges = function (docker, image, module, callback) {
             }
            
             var results = {
+                raw: data,
                 modified: [],
                 added: [],
                 deleted: []

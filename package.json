@@ -1,6 +1,6 @@
 {
   "name": "@adam_baldwin/module-fs-changes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Docker to get file system changes when npm installing a module",
   "main": "index.js",
   "bin": {
